@@ -1,0 +1,12 @@
+body {
+    font-size: 20px;
+    background-color: lightblue;
+    color: white;
+    font-family: Tahoma;
+}
+img {
+    width: 30%;
+    height: 200px;
+    left: auto;
+    right: auto;
+}
