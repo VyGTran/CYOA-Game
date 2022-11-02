@@ -1,12 +1,30 @@
 body {
     font-size: 20px;
-    background-color: lightblue;
+    background-color:lightblue;
     color: white;
     font-family: Tahoma;
+    display: block;
 }
-img {
-    width: 30%;
-    height: 200px;
-    left: auto;
-    right: auto;
+
+div.main {
+    display: block;
+    width: 900px;
+    height: 950px;
+    background-color: rgb(144, 213, 236);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.main {
+    width: 100%;
+}
+
+h1 {
+    font-family: Papyrus;
+    font-size: 80px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
