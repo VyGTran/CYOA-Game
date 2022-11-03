@@ -7,6 +7,7 @@ body {
 }
 
 div.main {
+    margin: 0px;
     display: block;
     width: 900px;
     height: 900px;
@@ -23,8 +24,31 @@ h1 {
     font-family: Papyrus;
     font-size: 80px;
     text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 p {
     text-align: center;
+}
+
+
+p#option1 {
+    float: left;
+    padding-left: 100px;
+}
+p#option2 {
+    float: left;
+    padding-left: 200px;
+}
+
+p#option3 {
+    float: right;
+    padding-right: 200px;
+}
+
+p#option4 {
+    float: right;
+    padding-right: 100px;
 }
